@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextFieldView">
+        <attr name="input" format="enum">
+            <enum name="text" value="0" />
+            <enum name="email" value="1" />
+            <enum name="numbers" value="2" />
+            <enum name="password" value="3" />
+        </attr>
+        <attr name="mode" format="enum">
+            <enum name="edit" value="0" />
+            <enum name="click" value="1" />
+        </attr>
+        <attr name="fieldValidationError" format="string" />
+    </declare-styleable>
+</resources>

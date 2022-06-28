@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TextFieldViewApp</string>
+    <string name="password_hint">Password</string>
+    <string name="password_field_error">Password format isn\'t valid</string>
+    <string name="clickable_field_hint">Click me to input something</string>
+    <string name="clickable_icon_field_hint">Click my icon to input something</string>
+    <string name="something">Something!</string>
+</resources>

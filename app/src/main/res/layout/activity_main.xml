@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <nagnoletti.android.textfieldview.TextFieldView
+        android:id="@+id/password_text_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"
+        android:hint="@string/password_hint"
+        app:input="password"
+        app:mode="edit" />
+
+    <nagnoletti.android.textfieldview.TextFieldView
+        android:id="@+id/clickable_text_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"
+        android:hint="@string/clickable_field_hint"
+        app:input="text"
+        app:mode="click" />
+
+    <nagnoletti.android.textfieldview.TextFieldView
+        android:id="@+id/clickable_icon_text_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"
+        android:hint="@string/clickable_icon_field_hint"
+        app:endIconDrawable="@drawable/ic_edit_square"
+        app:endIconMode="custom" />
+
+</LinearLayout>
