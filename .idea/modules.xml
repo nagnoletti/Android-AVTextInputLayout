@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TextFieldViewApp.iml" filepath="$PROJECT_DIR$/.idea/modules/TextFieldViewApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TextFieldView/TextFieldViewApp.AVTextInputLayout.iml" filepath="$PROJECT_DIR$/.idea/modules/TextFieldView/TextFieldViewApp.AVTextInputLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AVTextInputLayout/TextFieldViewApp.AVTextInputLayout.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/AVTextInputLayout/TextFieldViewApp.AVTextInputLayout.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AVTextInputLayout/TextFieldViewApp.AVTextInputLayout.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AVTextInputLayout/TextFieldViewApp.AVTextInputLayout.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AVTextInputLayout/TextFieldViewApp.AVTextInputLayout.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/AVTextInputLayout/TextFieldViewApp.AVTextInputLayout.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TextFieldViewApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TextFieldViewApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TextFieldViewApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TextFieldViewApp.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TextFieldViewApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TextFieldViewApp.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TextFieldViewApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TextFieldViewApp.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

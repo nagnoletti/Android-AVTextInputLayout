@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.textfieldviewapp"
+        applicationId "com.example.avtextinputlayout"
         minSdk 21
         targetSdk 32
         versionCode 1
@@ -33,8 +33,7 @@ android {
 
 dependencies {
 
-    implementation project(":TextFieldView")
-
+    implementation project(':AVTextInputLayout')
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.google.android.material:material:1.6.1'

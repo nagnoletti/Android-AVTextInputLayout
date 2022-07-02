@@ -6,7 +6,7 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <nagnoletti.android.textfieldview.TextFieldView
+    <nagnoletti.android.textfieldview.AVTextInputLayout
         android:id="@+id/password_text_field"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,9 +14,15 @@
         android:layout_marginVertical="5dp"
         android:hint="@string/password_hint"
         app:input="password"
-        app:mode="edit" />
+        app:mode="edit">
 
-    <nagnoletti.android.textfieldview.TextFieldView
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </nagnoletti.android.textfieldview.AVTextInputLayout>
+
+    <nagnoletti.android.textfieldview.AVTextInputLayout
         android:id="@+id/clickable_text_field"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,9 +30,15 @@
         android:layout_marginVertical="5dp"
         android:hint="@string/clickable_field_hint"
         app:input="text"
-        app:mode="click" />
+        app:mode="click">
 
-    <nagnoletti.android.textfieldview.TextFieldView
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </nagnoletti.android.textfieldview.AVTextInputLayout>
+
+    <nagnoletti.android.textfieldview.AVTextInputLayout
         android:id="@+id/clickable_icon_text_field"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,6 +46,12 @@
         android:layout_marginVertical="5dp"
         android:hint="@string/clickable_icon_field_hint"
         app:endIconDrawable="@drawable/ic_edit_square"
-        app:endIconMode="custom" />
+        app:endIconMode="custom">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </nagnoletti.android.textfieldview.AVTextInputLayout>
 
 </LinearLayout>
