@@ -1,11 +1,10 @@
 package com.example.avtextinputlayout
 
 import android.content.Context
-import com.example.avtextinputlayout.R
-import nagnoletti.android.textfieldview.AVTextInputLayout
+import nagnoletti.android.avtextinputlayout.AVTextInputLayout
 
 /**
- * Validation strategy for a TextFieldView of type password.
+ * Validation strategy for AVTextInputLayout used for passwords.
  * At least an uppercase letter, a lowercase letter, a number and a special character
  */
 class PasswordValidationStrategy(private val context: Context) :

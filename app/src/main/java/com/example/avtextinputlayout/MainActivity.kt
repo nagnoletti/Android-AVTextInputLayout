@@ -2,8 +2,7 @@ package com.example.avtextinputlayout
 
 import android.app.Activity
 import android.os.Bundle
-import com.example.avtextinputlayout.R
-import nagnoletti.android.textfieldview.AVTextInputLayout
+import nagnoletti.android.avtextinputlayout.AVTextInputLayout
 
 class MainActivity : Activity() {
 

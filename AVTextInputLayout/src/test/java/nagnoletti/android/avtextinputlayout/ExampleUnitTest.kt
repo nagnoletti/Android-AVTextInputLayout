@@ -1,4 +1,4 @@
-package nagnoletti.android.textfieldview
+package nagnoletti.android.avtextinputlayout
 
 import org.junit.Test
 

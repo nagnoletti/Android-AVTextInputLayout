@@ -6,7 +6,7 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <nagnoletti.android.textfieldview.AVTextInputLayout
+    <nagnoletti.android.avtextinputlayout.AVTextInputLayout
         android:id="@+id/password_text_field"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,9 +20,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-    </nagnoletti.android.textfieldview.AVTextInputLayout>
+    </nagnoletti.android.avtextinputlayout.AVTextInputLayout>
 
-    <nagnoletti.android.textfieldview.AVTextInputLayout
+    <nagnoletti.android.avtextinputlayout.AVTextInputLayout
         android:id="@+id/clickable_text_field"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,9 +36,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-    </nagnoletti.android.textfieldview.AVTextInputLayout>
+    </nagnoletti.android.avtextinputlayout.AVTextInputLayout>
 
-    <nagnoletti.android.textfieldview.AVTextInputLayout
+    <nagnoletti.android.avtextinputlayout.AVTextInputLayout
         android:id="@+id/clickable_icon_text_field"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -52,6 +52,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-    </nagnoletti.android.textfieldview.AVTextInputLayout>
+    </nagnoletti.android.avtextinputlayout.AVTextInputLayout>
 
 </LinearLayout>

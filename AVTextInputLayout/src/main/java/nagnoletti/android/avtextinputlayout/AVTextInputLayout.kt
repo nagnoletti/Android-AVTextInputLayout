@@ -1,4 +1,4 @@
-package nagnoletti.android.textfieldview
+package nagnoletti.android.avtextinputlayout
 
 import android.content.Context
 import android.text.Editable
@@ -8,9 +8,9 @@ import android.text.method.PasswordTransformationMethod
 import android.util.AttributeSet
 import android.view.View.OnClickListener
 import com.google.android.material.textfield.TextInputLayout
-import nagnoletti.android.textfieldview.AVTextInputLayout.EventListener
-import nagnoletti.android.textfieldview.AVTextInputLayout.Mode.Click
-import nagnoletti.android.textfieldview.AVTextInputLayout.Mode.Edit
+import nagnoletti.android.avtextinputlayout.AVTextInputLayout.EventListener
+import nagnoletti.android.avtextinputlayout.AVTextInputLayout.Mode.Click
+import nagnoletti.android.avtextinputlayout.AVTextInputLayout.Mode.Edit
 import java.util.regex.Pattern
 
 /**
